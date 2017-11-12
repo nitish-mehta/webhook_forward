@@ -17,7 +17,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 const arrayOfEndpoints = [
-  'http://localhost:2000'
 ];
 
 app.get('/get_endpoints', function(req, res) {
